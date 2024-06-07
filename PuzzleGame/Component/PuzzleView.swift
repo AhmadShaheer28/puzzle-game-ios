@@ -34,9 +34,10 @@ struct PuzzleView: View {
                                         }
                                 }
                                 .dropDestination(for: Data.self) { items, _ in
-                                    if let item = items.first, let droppedImage = UIImage(data: item), let draggingItem {
+                                    if let item = items.first, let _ = UIImage(data: item), let draggingItem {
+                                        let tempImage = shuffledTiles[draggingItem.row][draggingItem.col]
                                         shuffledTiles[draggingItem.row][draggingItem.col] = shuffledTiles[row][column]
-                                        shuffledTiles[row][column] = droppedImage
+                                        shuffledTiles[row][column] = tempImage
                                         
                                         moves += 1
                                         userWon = zip(shuffledTiles, orderedTiles).map({

@@ -30,8 +30,7 @@ struct PuzzleLoader {
             throw NSError(domain: "Error loading image", code: 3, userInfo: nil)
         }
 
-        let tiles = tilesFromImage(image: croppedImage,
-                                   size: CGSize(width: croppedImage.size.width/3, height: croppedImage.size.height/3))
+        let tiles = tilesFromImage(image: croppedImage, size: CGSize(width: croppedImage.size.width/3, height: croppedImage.size.height/3))
         return (croppedImage, tiles)
     }
     

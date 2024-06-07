@@ -43,7 +43,18 @@ struct HomeView: View {
                     LoaderView(text: "Loading...")
                 }
             }
-            .alert("You Win 🏆", isPresented: $userWon) {}
+            .alert("You Win 🏆", isPresented: $userWon, actions: {
+                Button("Reload") {
+                    self.moves = 0
+                    self.userWon = false
+                    self.loadedPuzzle = false
+                    self.showHint = false
+                    
+                    Task {
+                        await loadPuzzleImage()
+                    }
+                }
+            })
             .background {
                 Color.screenBackground
                     .ignoresSafeArea()
