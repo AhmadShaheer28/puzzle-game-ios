@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A37E81D2C1347180082534E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37E81C2C1347180082534E /* Extension.swift */; };
+		1A37E8202C1349890082534E /* PuzzleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37E81F2C1349890082534E /* PuzzleTile.swift */; };
+		1A37E8232C134B430082534E /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37E8222C134B420082534E /* LoaderView.swift */; };
+		1A37E82B2C134BC60082534E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A37E8262C134BC60082534E /* Poppins-Bold.ttf */; };
+		1A37E82C2C134BC60082534E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A37E8272C134BC60082534E /* Poppins-Medium.ttf */; };
+		1A37E82D2C134BC60082534E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A37E8282C134BC60082534E /* Poppins-Regular.ttf */; };
+		1A37E82E2C134BC60082534E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A37E8292C134BC60082534E /* Poppins-SemiBold.ttf */; };
+		1A37E8312C1351280082534E /* PuzzleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37E8302C1351280082534E /* PuzzleLoader.swift */; };
+		1A37E8332C13750D0082534E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37E8322C13750D0082534E /* Reachability.swift */; };
+		1A37E8352C13A45A0082534E /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37E8342C13A45A0082534E /* PuzzleView.swift */; };
 		1A83719F2C12746D00DB3A00 /* PuzzleGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A83719E2C12746D00DB3A00 /* PuzzleGameApp.swift */; };
 		1A8371A32C12746F00DB3A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8371A22C12746F00DB3A00 /* Assets.xcassets */; };
 		1A8371A62C12746F00DB3A00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8371A52C12746F00DB3A00 /* Preview Assets.xcassets */; };
@@ -16,6 +26,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A37E81C2C1347180082534E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1A37E81F2C1349890082534E /* PuzzleTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleTile.swift; sourceTree = "<group>"; };
+		1A37E8222C134B420082534E /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		1A37E8262C134BC60082534E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1A37E8272C134BC60082534E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1A37E8282C134BC60082534E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1A37E8292C134BC60082534E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1A37E82F2C134BE60082534E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1A37E8302C1351280082534E /* PuzzleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleLoader.swift; sourceTree = "<group>"; };
+		1A37E8322C13750D0082534E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1A37E8342C13A45A0082534E /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
 		1A83719B2C12746D00DB3A00 /* PuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A83719E2C12746D00DB3A00 /* PuzzleGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameApp.swift; sourceTree = "<group>"; };
 		1A8371A22C12746F00DB3A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +57,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A37E81B2C13470A0082534E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A37E81C2C1347180082534E /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1A37E81E2C1349750082534E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A37E81F2C1349890082534E /* PuzzleTile.swift */,
+				1A37E8302C1351280082534E /* PuzzleLoader.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A37E8212C134B2B0082534E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1A37E8222C134B420082534E /* LoaderView.swift */,
+				1A37E8342C13A45A0082534E /* PuzzleView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1A37E8242C134B8F0082534E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A37E8322C13750D0082534E /* Reachability.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1A37E82A2C134BC60082534E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1A37E8262C134BC60082534E /* Poppins-Bold.ttf */,
+				1A37E8272C134BC60082534E /* Poppins-Medium.ttf */,
+				1A37E8282C134BC60082534E /* Poppins-Regular.ttf */,
+				1A37E8292C134BC60082534E /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		1A8371922C12746D00DB3A00 = {
 			isa = PBXGroup;
 			children = (
@@ -55,9 +121,15 @@
 		1A83719D2C12746D00DB3A00 /* PuzzleGame */ = {
 			isa = PBXGroup;
 			children = (
+				1A37E82F2C134BE60082534E /* Info.plist */,
 				1A8371B12C12761200DB3A00 /* App */,
 				1A8371B22C12762A00DB3A00 /* Views */,
+				1A37E8212C134B2B0082534E /* Component */,
+				1A37E81E2C1349750082534E /* Model */,
 				1A8371B32C12763E00DB3A00 /* CoreData */,
+				1A37E81B2C13470A0082534E /* Extension */,
+				1A37E8242C134B8F0082534E /* Utils */,
+				1A37E82A2C134BC60082534E /* Fonts */,
 				1A8371A22C12746F00DB3A00 /* Assets.xcassets */,
 				1A8371A42C12746F00DB3A00 /* Preview Content */,
 			);
@@ -156,7 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8371A62C12746F00DB3A00 /* Preview Assets.xcassets in Resources */,
+				1A37E82C2C134BC60082534E /* Poppins-Medium.ttf in Resources */,
+				1A37E82B2C134BC60082534E /* Poppins-Bold.ttf in Resources */,
+				1A37E82E2C134BC60082534E /* Poppins-SemiBold.ttf in Resources */,
 				1A8371A32C12746F00DB3A00 /* Assets.xcassets in Resources */,
+				1A37E82D2C134BC60082534E /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,9 +243,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A37E81D2C1347180082534E /* Extension.swift in Sources */,
 				1A8371A82C12746F00DB3A00 /* Persistence.swift in Sources */,
 				1A83719F2C12746D00DB3A00 /* PuzzleGameApp.swift in Sources */,
+				1A37E8232C134B430082534E /* LoaderView.swift in Sources */,
+				1A37E8352C13A45A0082534E /* PuzzleView.swift in Sources */,
+				1A37E8202C1349890082534E /* PuzzleTile.swift in Sources */,
+				1A37E8332C13750D0082534E /* Reachability.swift in Sources */,
 				1A8371B52C12767700DB3A00 /* HomeView.swift in Sources */,
+				1A37E8312C1351280082534E /* PuzzleLoader.swift in Sources */,
 				1A8371AB2C12746F00DB3A00 /* PuzzleGame.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,12 +389,13 @@
 				DEVELOPMENT_TEAM = 43C673Q94L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuzzleGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,12 +420,13 @@
 				DEVELOPMENT_TEAM = 43C673Q94L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuzzleGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
